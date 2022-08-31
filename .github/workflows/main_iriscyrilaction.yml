@@ -33,8 +33,7 @@ jobs:
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
       - name: Lint with black
-        run: |
-        black *.py
+        run: black *.py
 
 
       - name: Test with pytest
